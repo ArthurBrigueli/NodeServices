@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    height: 100vh;
+    color: white;
+    margin-top: 50px;
+}
+
+
+.container_profile{
+    background-color: rgb(46, 46, 46);
+    width: 20%;
+}
+
+
+.container_geral{
+    width: 80%;
+    background-color: rgb(29, 29, 29);
+    padding: 35px;
+}
+
+
+.container_VisaoGeral{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
