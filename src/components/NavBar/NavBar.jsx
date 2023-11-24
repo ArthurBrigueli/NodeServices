@@ -2,6 +2,7 @@ import styles from './NavBar.module.css'
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom'
 import { SlArrowDown } from "react-icons/sl";
 import { useState } from 'react';
+import logo from '../../img/logosite.png'
 
 
 const NavBar = ()=>{
@@ -22,8 +23,8 @@ const NavBar = ()=>{
 
     return(
         <nav className={styles.navbar}>
-            <div>
-
+            <div className={styles.container_logo}>
+                <Link to="/"><img className={styles.logo_img} src={logo} alt="" /></Link>
             </div>
 
             <ul className={styles.ul}>

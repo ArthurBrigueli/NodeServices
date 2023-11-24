@@ -1,13 +1,14 @@
 .navbar{
     background-color: rgb(42, 42, 42);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 50px;
     align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    gap: 35%;
 }
 
 
@@ -60,5 +61,19 @@
 }
 
 .container_drop a:hover{
-    border-radius: 0;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.container_drop{
+    border-radius: 10px;
+}
+
+
+.container_logo{
+    display: inline-block;
+
+}
+
+.logo_img{
+    width: 50px;
 }
